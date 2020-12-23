@@ -137,7 +137,7 @@ which Trident will not manage, use the following command:
 
 .. code-block:: bash
 
-   $ tridentctl import volume nas_blog unmanaged_volume -f <path-to-pvc-file> --no-manage
+   $ tridentctl import volume ontap_nas unmanaged_volume -f <path-to-pvc-file> --no-manage
 
    +------------------------------------------+---------+---------------+----------+--------------------------------------+--------+---------+
    |                   NAME                   |  SIZE   | STORAGE CLASS | PROTOCOL |             BACKEND UUID             | STATE  | MANAGED |
